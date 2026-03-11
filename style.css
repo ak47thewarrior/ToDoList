@@ -7,6 +7,7 @@ h1{
     justify-content: space-around;
 }
 #textContainer{
+    height: calc(100dvh - 140px);
     width:auto;
     overflow-y: auto;
     display: flex;
@@ -32,4 +33,17 @@ h1{
     width: 16px;
     border: solid 1px gray;
     border-radius: 50%;
+}
+.group{
+    display: flex;
+    gap: 10px;
+
+}
+
+.filter{
+    padding: 8px 16px;
+}
+
+.filter.highlight{
+    color: blue;
 }
