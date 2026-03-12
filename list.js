@@ -39,7 +39,9 @@ const getTodoCard = (todo) =>{
     card.append(noteContainer)
 
     const deleteTodoBtn = document.createElement("div")
+    deleteTodoBtn.classList.add("deleteTodoBtn")
     deleteTodoBtn.innerText = "D"
+    
     deleteTodoBtn.onclick = () => deleteTodo(todo.timestamp)
     card.append(deleteTodoBtn)
     

@@ -7,7 +7,7 @@ h1{
     justify-content: space-around;
 }
 #textContainer{
-    height: calc(100dvh - 140px);
+    height: calc(100dvh - 165px);
     width:auto;
     overflow-y: auto;
     display: flex;
@@ -46,4 +46,8 @@ h1{
 
 .filter.highlight{
     color: blue;
+}
+.deleteTodoBtn{
+    display: flex;
+    margin-left: auto;
 }
